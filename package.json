@@ -1,0 +1,28 @@
+{
+  "name": "dottorrent",
+  "version": "1.0.0",
+  "description": "A cross platform desktop client for bittorrent built with electron",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^8.2.5"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Playground-Labs/dotTorrent.git"
+  },
+  "keywords": [
+    "torrent",
+    "bittorrent",
+    "electron"
+  ],
+  "author": "Punyasloka Parida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Playground-Labs/dotTorrent/issues"
+  },
+  "homepage": "https://github.com/Playground-Labs/dotTorrent#readme"
+}
