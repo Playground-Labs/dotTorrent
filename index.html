@@ -5,9 +5,22 @@
     <title>dotTorrent</title>
     <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    
   </head>
   <body>
     <h1>.torrent</h1>
-    <button>Load Torrent</button>
+    <form method="post" enctype="multipart/form-data">
+      <div>
+        <label for="torrent_file">Choose a torrent file</label>
+        <input type="file" id="torrent_file" name="torrent_file" accept=".torrent" multiple>
+      </div>
+      <div class="preview">
+        <p>No files currently selected for upload</p>
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+    </form>
+    <script type="text/javascript" src="evaporate.js"></script>
   </body>
 </html>
