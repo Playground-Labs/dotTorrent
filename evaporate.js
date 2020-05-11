@@ -54,7 +54,7 @@ function updateTorrentInformation() {
             getTrackerInformation('http')
           break;
         case 'udp':
-         getTrackerInformation('udp')
+            tracker.getPeers(torrent);
           break;
         default:
           console.log(`Unknown Protocol ${expr}.`);
